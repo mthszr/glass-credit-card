@@ -191,7 +191,7 @@ body {
 .triangle {
   font-size: 0.7rem; 
   line-height: 1;
-  margin: 0 5px 0 1px; 
+  margin: 0 15px 0 5px; 
   opacity: 0.8;
 }
 
@@ -236,8 +236,11 @@ body {
 .magnetic-strip {
   background: #000;
   height: 40px;
-  width: 100%;
+  width: calc(100% + 50px);
+  margin-left: -25px;
+  margin-top: 20px; /* Adjust this value to position strip vertically */
   margin-bottom: 20px;
+  position: relative;
 }
 
 .signature {
