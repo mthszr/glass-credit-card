@@ -233,6 +233,10 @@ body {
   margin-top: 0px;
 }
 
+.contact-info {
+  font-size: 0.6rem;
+}
+
 .magnetic-strip {
   background: #000;
   height: 40px;
@@ -251,5 +255,5 @@ body {
 }
 
 .back-info {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
